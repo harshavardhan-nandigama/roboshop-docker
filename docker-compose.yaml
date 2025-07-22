@@ -29,7 +29,7 @@ services:
     - catalogue
     - redis
   mysql:
-    image: harshavardhan247/:v1
+    image: harshavardhan247/msql:v1
     container_name: mysql
   shipping:
     image: harshavardhan247/shipping:v1
